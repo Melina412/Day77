@@ -1,3 +1,7 @@
+// Das Ziel dieser Übung ist es, den Inhalt einer JSON Datei in eine .txt-Datei umzuwandeln.
+// Erstelle dir eine JSON Datei mit dem vorgegebenen Code (siehe Code - Snippet)
+// Importiere die json-Datei in deiner index.js und nutze das File System, um die JSON Datei in eine neue .txt-Datei zu schreiben.
+
 import fs from 'fs';
 
 fs.readFile('./data.json', 'utf-8', (err, data) => {

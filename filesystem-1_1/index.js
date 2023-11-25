@@ -2,7 +2,9 @@ import fs from 'fs';
 
 // Erstelle dir in deinem Projektordner eine Datei mit dem Namen „blog1.txt“. In ihr soll „Hello World“ stehen.
 fs.writeFile('./blog1.txt', 'Hello World', () => {
-  console.log('Text "Hello World" wurde in "./blog1.txt" geschrieben');
+  console.log(
+    'Datei "./blog1.txt" wurde erstellt und "Hello World" wurde geschrieben'
+  );
 });
 
 // Führe jetzt folgende Schritte aus. Allerdings nicht manuell per Terminal oder UI sondern mit Hilfe von den vorgefertigten Funktionen aus dem File System von Node.js:
